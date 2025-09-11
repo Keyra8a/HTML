@@ -23,5 +23,52 @@
     <a href="tel:+6121548192">Telefono</a>
     <br>
     <a href="mailto:keyraochoa321@gtmail.com">Correo Electronico</a>
+    <br>
+    <from>
+        <label for="email">
+            Ingrese su correo:
+        </label>
+        <input type="email" name="email" id="email" value="keyrayari@uabcs.mx" readonly>
+        <br>
+        <label for="nombre">
+            Ingrese su nombre: 
+        </labe >
+        <input type="text" name="lastname" id="nombre"  autofocus placeholder="nombre" minlength="5" maxlength="10" size="50" required pattern="[A-Za-z]{3}"
+        title="Solo se permiten 3 letras">
+        <br>
+        <label for="apellido">
+            Ingrese su apellido:
+        </label>
+        <input type="text" name="lastname" id="apellido" placeholder="apellido">
+        <br>
+        <label>
+            Telefono:
+        </label>
+        <input type="number" name="telefono" id="telefono" placeholder="telefono" min="5" max="20" step="2" required>
+        <br>
+        <label>
+            Genero:
+        </label>
+        <label for="mujer"> Mujer </label>
+        <input type="radio" name="genero" value="Mujer" id="mujer">
+        <label for="hombre"> Hombre </label>
+        <input type="radio" name="genero" value="Hombre" id="hombre">
+        <br>
+        <label>
+            Preferencias:
+        </label>
+        <label for="pizza"> Pizza </label>
+        <input type="checkbox" name="Preferencias" value="pizza" id="pizza">
+        <label for="pozole"> Pozole </label>
+        <input type="checkbox" name="Preferencias" value="pozole" id="pozole">
+        <br>
+        <input type="submit" name="" value="Guardar">
+
+        <br>
+        <input type="button" name="" value="Hola">
+
+        <br>
+
+    </from>
 </body>
 </html>
