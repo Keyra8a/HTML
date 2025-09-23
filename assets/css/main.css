@@ -76,5 +76,41 @@ a:hover{
     background-color: lightyellow;
 }
 
+.parrafo{
+    background-color: lightgray;
+    padding: 50px;
+}
+.parrafo2{
+    border: 20px solid rgb(248, 0, 0);
+    border-style: solid;
+    border-radius: 60px;
+}
+.parrafo3{
+    border: 10px dashed rgb(0, 0, 0);
+    border-style: dashed;
+    border-radius: 20px;
+    padding: 20px;
+}
+.parrafo4{
+    border: 5px dotted rgb(240, 240, 251);
+    border-style: dotted;
+    border-radius: 40px;
+    padding: 10px;
+}
+.parrafo5{
+    border: 15px double rgb(0, 0, 0);
+    border-style: double;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: justify;
+    margin: 50px
+}
+/*para BIO*/
+img{
+    width: 10%;
+
+}
+
+
 
 
