@@ -32,6 +32,9 @@ p strong{
 a:hover{
     background: red;
 }
+a{
+    display: block;
+}
 @font-face {
     font-family: "Dancing Script";
     src: url(../fonts/DancingScript-Regular.ttf) format("truetype");
@@ -110,7 +113,14 @@ img{
     width: 10%;
 
 }
-
+#imagen{
+    background-image: url("../img/descarga.jpeg");
+    background-position: right;
+}
+#imagen2{
+    background-image: url("../img/papa-noel.png");
+    background-position: left;
+}
 
 
 
